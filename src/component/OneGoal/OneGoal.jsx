@@ -8,7 +8,7 @@ const OneGoal = () => {
                 <div class="2xl:container mx-auto">
                     <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 mt-48 mb-36">
                         <div className="">
-                            <img className="rounded-2xl" src="https://lh3.googleusercontent.com/proxy/ABas8tdE1Tz6fBDqa_6ZZH28f52KOgTOUKexYVAKNPdd33ek1E8VcHBetDe046wtZon524UKsa1oOOdy3dieNJIm0YNPYBiLAL3qedFX99QfWCC5jI_cP6lY3-aka-etoj2H" alt="" />
+                            <img className="rounded-2xl" src="https://thumbs.dreamstime.com/b/making-delicious-home-made-bread-seeds-process-baking-296139431.jpg" alt="" />
                         </div>
 
                         <div className="flex flex-col justify-center items-start h-[350px] gap-4 m-4 bg-white p-9 rounded-2xl -ml-32 mr-44 -mt-36 ">
