@@ -122,8 +122,7 @@ const Ratings = () => {
                                         </svg>
                                     </div>
                                     <p className="text-lg text-gray-500 leading-8 h-24 transition-all duration-500 mb-9 group-hover:text-gray-800">
-                                        Pagedone is simply the best tool of investment in the market right
-                                        now.
+                                    Just what I was looking for. This seems so real until you touch it. Love it. Good price.
                                     </p>
                                     <div className="flex items-center gap-5">
                                         <img
@@ -198,8 +197,8 @@ const Ratings = () => {
                                         </svg>
                                     </div>
                                     <p className="text-lg text-gray-500 leading-8 h-24 transition-all duration-500 mb-9  group-hover:text-gray-800">
-                                        I was hesitant to try pagedone at first, but I'm so glad I did -
-                                        it's exceeded all of my expectations.
+                                    We have used almost all the bakery products of delicacy.
+                                    It is so delicious in taste that you cant stop eating.
                                     </p>
                                     <div className="flex items-center gap-5">
                                         <img
@@ -276,8 +275,7 @@ const Ratings = () => {
                                         </svg>
                                     </div>
                                     <p className="text-lg text-gray-500 leading-8 h-24 transition-all duration-500 mb-9 group-hover:text-gray-800 ">
-                                        Pagedone stands out as the most user-friendly and effective
-                                        solution I've ever used.
+                                    Good bakery, but when I ordered for buns in bulk the quality was a bit unacceptable. rest is good for routine.
                                     </p>
                                     <div className="flex items-center gap-5">
                                         <img
@@ -354,8 +352,7 @@ const Ratings = () => {
                                         </svg>
                                     </div>
                                     <p className="text-lg text-gray-500 leading-8 h-24 transition-all duration-500 mb-9 group-hover:text-gray-800">
-                                        Pagedone is simply the best tool of investment in the market right
-                                        now.
+                                    I want there for buying birthday cake for friend.The cake was very delicious and yummy😛😛😛😛
                                     </p>
                                     <div className="flex items-center gap-5">
                                         <img
@@ -430,8 +427,8 @@ const Ratings = () => {
                                         </svg>
                                     </div>
                                     <p className="text-lg text-gray-500 leading-8 h-24 transition-all duration-500 mb-9  group-hover:text-gray-800">
-                                        I was hesitant to try pagedone at first, but I'm so glad I did -
-                                        it's exceeded all of my expectations.
+                                    They have very good pastries and bakery food.. I regularly bet my bakery items from here. 
+                                    Always maintain their quality and taste.
                                     </p>
                                     <div className="flex items-center gap-5">
                                         <img
@@ -508,8 +505,7 @@ const Ratings = () => {
                                         </svg>
                                     </div>
                                     <p className="text-lg text-gray-500 leading-8 h-24 transition-all duration-500 mb-9 group-hover:text-gray-800 ">
-                                        Pagedone stands out as the most user-friendly and effective
-                                        solution I've ever used.
+                                    Cake, Pastry, Muffins, Cookies, Breads(too good), ambiance feels luxury.
                                     </p>
                                     <div className="flex items-center gap-5">
                                         <img
