@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img{
+    background-image: url("https://www.shutterstock.com/image-photo/honey-jar-slice-bread-wheat-600nw-251766751.jpg");
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-color: brown;
+    background-size: cover;
+}
