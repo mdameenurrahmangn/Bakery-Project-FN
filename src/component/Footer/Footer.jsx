@@ -12,50 +12,42 @@ const Footer = () => {
                         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
                             <div className="px-5 py-2">
                                 <a
-                                    href="#"
+                                    href="/"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
-                                    About
+                                    Home
                                 </a>
                             </div>
                             <div className="px-5 py-2">
                                 <a
-                                    href="#"
+                                    href="/fresh"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
-                                    Blog
+                                    FreshBakes
                                 </a>
                             </div>
                             <div className="px-5 py-2">
                                 <a
-                                    href="#"
+                                    href="/features"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
-                                    Team
+                                    Features
                                 </a>
                             </div>
                             <div className="px-5 py-2">
                                 <a
-                                    href="#"
+                                    href="/rating"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
-                                    Pricing
+                                    Ratings
                                 </a>
                             </div>
                             <div className="px-5 py-2">
                                 <a
-                                    href="#"
+                                    href="/contact"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
                                     Contact
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a
-                                    href="#"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
-                                    Terms
                                 </a>
                             </div>
                         </nav>

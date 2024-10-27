@@ -62,8 +62,8 @@ const Ratings = () => {
                         </div>
                         {/*Slider wrapper*/}
                         <div className="lg:flex grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-8 swiper mySwiper">
-                            <div className="swiper-wrapper">
-                                <div className="swiper-slide group bg-white border border-solid h-auto border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 slide-active:border-indigo-600">
+                            <div className="swiper-wrapper space-y-3">
+                                <div className="swiper-slide group bg-white border-2 h-auto border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 slide-active:border-indigo-600">
                                     <div className="flex items-center mb-9 gap-2 text-amber-500 transition-all duration-500  group-hover:text-indigo-600 swiper-slide-active:text-indigo-600 ">
                                         <svg
                                             className="w-5 h-5"
@@ -138,7 +138,7 @@ const Ratings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 slide-active:border-indigo-600">
+                                <div className="swiper-slide group bg-white border-2 border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 slide-active:border-indigo-600">
                                     <div className="flex items-center mb-9 gap-2 text-amber-500 transition-all duration-500  group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
                                         <svg
                                             className="w-5 h-5"
@@ -216,7 +216,7 @@ const Ratings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 ">
+                                <div className="swiper-slide group bg-white border-2 border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 ">
                                     <div className="flex items-center mb-9 gap-2 text-amber-500 transition-all duration-500  group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
                                         <svg
                                             className="w-5 h-5"
@@ -293,7 +293,7 @@ const Ratings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 slide-active:border-indigo-600">
+                                <div className="swiper-slide group bg-white border-2 border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 slide-active:border-indigo-600">
                                     <div className="flex items-center mb-9 gap-2 text-amber-500 transition-all duration-500  group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
                                         <svg
                                             className="w-5 h-5"
@@ -368,7 +368,7 @@ const Ratings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 ">
+                                <div className="swiper-slide group bg-white border-2 border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 ">
                                     <div className="flex items-center mb-9 gap-2 text-amber-500 transition-all duration-500  group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
                                         <svg
                                             className="w-5 h-5"
@@ -446,7 +446,7 @@ const Ratings = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="swiper-slide group bg-white border border-solid border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 ">
+                                <div className="swiper-slide group bg-white border-2 border-gray-300 rounded-2xl p-6 transition-all duration-500 w-full hover:border-indigo-600 ">
                                     <div className="flex items-center mb-9 gap-2 text-amber-500 transition-all duration-500  group-hover:text-indigo-600 swiper-slide-active:text-indigo-600">
                                         <svg
                                             className="w-5 h-5"
