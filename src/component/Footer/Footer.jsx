@@ -21,48 +21,36 @@ const Footer = () => {
                         <div className="flex flex-col justify-center items-center">
                             <img className="h-28" src="https://ik.imagekit.io/pvrlbjuaj/MERN%20stack/Bakery%20Logo.png" alt="" />
                         </div>
-                        
+
                         <nav className="flex flex-wrap justify-center -mx-5 -my-2">
                             <div className="px-5 py-2">
-                                <a
-                                    href="/"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
+                                <Link className="text-base leading-6 text-black font-semibold hover:text-white" to="/" onClick={toggle}>
                                     Home
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <Link to="/fresh" onClick={toggle}>
-                                    Bakes
                                 </Link>
                             </div>
                             <div className="px-5 py-2">
-                                <a
-                                    href="/features1"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
+                                <Link className="text-base leading-6 text-black font-semibold hover:text-white" to="/fresh" onClick={toggle}>
+                                    FreshBakes
+                                </Link>
+                            </div>
+                            <div className="px-5 py-2">
+                                <Link className="text-base leading-6 text-black font-semibold hover:text-white" to="/features1" onClick={toggle}>
                                     Features
-                                </a>
+                                </Link>
                             </div>
                             <div className="px-5 py-2">
-                                <a
-                                    href="/rating"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
+                                <Link className="text-base leading-6 text-black font-semibold hover:text-white" to="/rating" onClick={toggle}>
                                     Ratings
-                                </a>
+                                </Link>
                             </div>
                             <div className="px-5 py-2">
-                                <a
-                                    href="/contact"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
+                                <Link className="text-base leading-6 text-black font-semibold hover:text-white" to="/contact" onClick={toggle}>
                                     Contact
-                                </a>
+                                </Link>
                             </div>
                         </nav>
 
-        
+
 
                         <div className="flex justify-center mt-8 space-x-6">
                             <a href="#" className="text-white hover:text-gray-500">
