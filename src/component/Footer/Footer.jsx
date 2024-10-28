@@ -1,10 +1,17 @@
+import { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom"
+import Features from "../Features/Features";
+import NewsLetter from "../NewsLetter/NewsLetter";
 
 const Footer = () => {
 
+    const [show, setShow] = useState();
+
     const toggle = () => {
         setShow(!show);
-      };
+    };
+
 
     return (
         <>
@@ -16,45 +23,18 @@ const Footer = () => {
                         <div className="flex flex-col justify-center items-center">
                             <img className="h-28" src="https://ik.imagekit.io/pvrlbjuaj/MERN%20stack/Bakery%20Logo.png" alt="" />
                         </div>
-                        <nav className="flex flex-wrap justify-center -mx-5 -my-2">
+
+                        <ul className="flex flex-wrap justify-center -mx-5 -my-2">
                             <div className="px-5 py-2">
                                 <a
-                                    href="/"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
-                                    Home
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <Link to="/fresh" onClick={toggle}>
-                                Freshiii
-                                </Link>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a
-                                    href="/features"
+                                href="./features1"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
                                     Features
                                 </a>
                             </div>
-                            <div className="px-5 py-2">
-                                <a
-                                    href="/rating"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
-                                    Ratings
-                                </a>
-                            </div>
-                            <div className="px-5 py-2">
-                                <a
-                                    href="/contact"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
-                                    Contact
-                                </a>
-                            </div>
-                        </nav>
+                        </ul>
+
                         <div className="flex justify-center mt-8 space-x-6">
                             <a href="#" className="text-white hover:text-gray-500">
                                 <span className="sr-only">Facebook</span>

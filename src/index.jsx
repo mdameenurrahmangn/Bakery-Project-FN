@@ -51,7 +51,7 @@ const Router = createBrowserRouter([{
             element:<Ratings/>
         },
         {
-            path:"/features",
+            path:"/features1",
             element:<Features/>
         },
         {
