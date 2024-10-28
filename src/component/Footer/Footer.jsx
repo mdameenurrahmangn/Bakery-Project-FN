@@ -1,4 +1,11 @@
+import { Link } from "react-router-dom"
+
 const Footer = () => {
+
+    const toggle = () => {
+        setShow(!show);
+      };
+
     return (
         <>
             <>
@@ -19,12 +26,9 @@ const Footer = () => {
                                 </a>
                             </div>
                             <div className="px-5 py-2">
-                                <a
-                                    href="/connect"
-                                    className="text-base leading-6 text-black font-semibold hover:text-white"
-                                >
-                                    FreshBakes
-                                </a>
+                                <Link to="/fresh" onClick={toggle}>
+                                Freshiii
+                                </Link>
                             </div>
                             <div className="px-5 py-2">
                                 <a
