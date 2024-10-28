@@ -20,7 +20,7 @@ const Footer = () => {
                             </div>
                             <div className="px-5 py-2">
                                 <a
-                                    href="/fresh"
+                                    href="/connect"
                                     className="text-base leading-6 text-black font-semibold hover:text-white"
                                 >
                                     FreshBakes
