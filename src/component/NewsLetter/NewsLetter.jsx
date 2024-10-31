@@ -11,8 +11,7 @@ const NewsLetter = () => {
                             <p className="text-3xl font-semibold">Sign up for the newsletter</p>
                             <p>Want to be the first to read our news? Subscribe to the newsletter to keep abreast of all events.</p>
                             <input className="w-96 p-2 border-2 border-gray-300" type="email" name="Email" id="" placeholder="Enter a valid email address" />
-                            <button className="w-24 p-2 bg-[#a79f94] hover:bg-black text-white font-semibold">SUBMIT</button>
-
+                            <button type="submit" className="w-24 p-2 bg-[#a79f94] hover:bg-black text-white font-semibold">SUBMIT</button>
                             <div className="flex mt-8 space-x-6">
                                 <a href="#" className="text-black hover:text-gray-500">
                                     <span className="sr-only">Facebook</span>
